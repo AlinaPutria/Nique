@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nique.</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="maskL">
+        <div class="artboard">
+            <div class="domino">
+              <div class="domino-box"></div>
+              <div class="domino-box"></div>
+              <div class="domino-box"></div>
+              <div class="domino-box"></div>
+            </div>
+          </div>
+    </div>
+    <main class="main">
+        <aside class="sidebar">
+            <section class="section-main menu">
+                <a href="./index.html" class="header-logo">
+                    nique.
+                </a>
+                <div class="main-text menu">
+                    <h3 class="main-text-h3">Check Out</h3>
+                    <h2 class="main-text-h2">Our Menus</h2>
+                </div>
+                <div class="navbar menu">
+                    <button class="navbar-link" id="box" onclick="box()">
+                        <img class="navbar-link-img" src="./css/img/ri_time-line.png" alt="">
+                    </button>
+                    <div class="box" id="navbar-link-box">
+                        <div class="navbar-link-box">
+                            <p class="navbar-link-box-p">Opening Hours</p>
+                            <div class="navbar-link-box-text">
+                                <div class="navbar-link-box-text-item">
+                                    <p class="navbar-link-box-text-item-p-bold">Mon</p>
+                                    <p class="navbar-link-box-text-item-p">closed</p>
+                                </div>
+                                <div class="navbar-link-box-text-item">
+                                    <p class="navbar-link-box-text-item-p-bold">Tue - Fri</p>
+                                    <p class="navbar-link-box-text-item-p">4pm - 8pm</p>
+                                </div>
+                                <div class="navbar-link-box-text-item">
+                                    <p class="navbar-link-box-text-item-p-bold">Sat- Sun</p>
+                                    <p class="navbar-link-box-text-item-p">5pm - 11pm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar-list">
+                        <ul class="navbar-list-ul">
+                            <li class="navbar-list-ul-li"><a href="./menu.html" class="navbar-list-ul-link">Menu</a></li>
+                            <li class="navbar-list-ul-li"><a href="./restaurant.html" class="navbar-list-ul-link">Restaurant</a></li>
+                            <li class="navbar-list-ul-li"><a href="./classes.html" class="navbar-list-ul-link">Classes</a></li>
+                            <li class="navbar-list-ul-li"><a href="./contact.html" class="navbar-list-ul-link">Contact</a></li>
+                            <li class="navbar-list-ul-li"><a href="./blog.html" class="navbar-list-ul-link">Blog</a></li>
+                            <li class="navbar-list-ul-li"><a href="./shop.html" class="navbar-list-ul-link">Shop</a></li>
+                        </ul>
+                    </nav>
+                    <div class="burger-burger">
+                        <div id="burger" class="burger">
+                            <p class="burger-span"></p>
+                            <p class="burger-span"></p>
+                            <p class="burger-span"></p>
+                        </div>
+                        <nav class="burger-navbar-list" id="burger-navbar-list">
+                            <ul class="burger-navbar-list-ul">
+                                <li class="burger-navbar-list-ul-li"><a href="./menu.html"
+                                        class="burger-navbar-list-ul-link">Menu</a></li>
+                                <li class="burger-navbar-list-ul-li"><a href="./restaurant.html"
+                                        class="burger-navbar-list-ul-link">Restaurant</a></li>
+                                <li class="burger-navbar-list-ul-li"><a href="./classes.html"
+                                        class="burger-navbar-list-ul-link">Classes</a></li>
+                                <li class="burger-navbar-list-ul-li"><a href="./contact.html"
+                                        class="burger-navbar-list-ul-link">Contact</a></li>
+                                <li class="burger-navbar-list-ul-li"><a href="./blog.html"
+                                        class="burger-navbar-list-ul-link">Blog</a></li>
+                                <li class="burger-navbar-list-ul-li"><a href="./shop.html"
+                                        class="burger-navbar-list-ul-link">Shop</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <a href="./reservation.html" class="link">Book a Table</a>
+                </div>
+            </section>
+        </aside>
+        <section class="section-menu">
+            <div class="items-filter">
+                <button class="button filter" data-filter="Starters">Starters</button>
+                <button class="button filter" data-filter="Breakfast">Breakfast</button>
+                <button class="button filter" data-filter="Dinner">Dinner</button>
+                <button class="button filter" data-filter="Drinks">Drinks</button>
+            </div>
+            <div class="menu-list">
+                <div class="menu-item item1" data-tags="Starters">
+                    <h4 class="menu-item-h4">Starters</h4>
+                    <div class="menu-item-about product1">
+                        <img src="./css/img/menu/product1.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Tomato Toast</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$29</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product2">
+                        <img src="./css/img/menu/product2.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Noodle Soup</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-discount">$5,00</p>
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product3 Starter-of-the-Day">
+                        <img src="./css/img/menu/product3.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Pumpkin Soup</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item item2" data-tags="Breakfast">
+                    <h4 class="menu-item-h4">Breakfast</h4>
+                    <div class="menu-item-about product1">
+                        <img src="./css/img/menu/product4.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Delicious Pancakes</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-discount">$8,00</p>
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product2">
+                        <img src="./css/img/menu/product5.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Sweet Heaven</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product3 Lunch-of-the-Day">
+                        <img src="./css/img/menu/product6.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Oatmeal Spirit</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product4">
+                        <img src="./css/img/menu/product7.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Avocado Smash</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item item3" data-tags="Dinner">
+                    <h4 class="menu-item-h4">Dinner</h4>
+                    <div class="menu-item-about product1">
+                        <img src="./css/img/menu/product8.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Italian Pizza</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-discount">$8,00</p>
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Tomatillo, Baja Crema, Cabbage, Fried Okra</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product2">
+                        <img src="./css/img/menu/product9.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Sea Curry</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Tomatillo, Baja Crema, Cabbage, Fried Okra</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product3 Lunch-of-the-Day">
+                        <img src="./css/img/menu/product10.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Vegan Burger</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Tomatillo, Baja Crema, Cabbage, Fried Okra</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product4">
+                        <img src="./css/img/menu/product11.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Noodle Bowl</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Tomatillo, Baja Crema, Cabbage, Fried Okra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item item4" data-tags="Drinks">
+                    <h4 class="menu-item-h4">Drinks</h4>
+                    <div class="menu-item-about product1">
+                        <img src="./css/img/menu/product12.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Panthouse Tonic</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-discount">$8,00</p>
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Tomatillo, Baja Crema, Cabbage, Fried Okra</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product2">
+                        <img src="./css/img/menu/product13.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Apple Breeze</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Tomatillo, Baja Crema, Cabbage, Fried Okra</p>
+                        </div>
+                    </div>
+                    <div class="menu-item-about product3">
+                        <img src="./css/img/menu/product14.jpg" alt="" class="menu-item-about-img">
+                        <div class="menu-item-about-title">
+                            <div class="menu-item-about-title-top">
+                                <p class="menu-item-about-title-name">Frenchman Blitz</p>
+                                <div class="menu-item-about-price">
+                                    <p class="menu-item-about-price-p">$5,00</p>
+                                </div>
+                            </div>
+                            <p class="menu-item-about-title-text">Tomatillo, Baja Crema, Cabbage, Fried Okra</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Go to Top Button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </main>
+   
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/AutoFilter@0.3/autofilter.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
